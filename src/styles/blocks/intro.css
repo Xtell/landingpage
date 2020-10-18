@@ -1,7 +1,7 @@
 .intro {
   position: relative;
   min-height: 674px;
-  padding-top: 94px;
+  padding-top: 83px;
   padding-bottom: 150px;
   background-image: url('../../images/intro-bg.png'),
                     linear-gradient(0deg, rgba(152, 195, 232, 0.2) 8.84%, rgba(152, 195, 232, 0) 31.12%);
@@ -14,7 +14,7 @@
 }
 .intro__title {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-family: 'Galien', serif;
   font-size: 64px;
   line-height: 74px;
