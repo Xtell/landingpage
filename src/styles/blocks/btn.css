@@ -1,0 +1,21 @@
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 220px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.btn--primary {
+  background-color: #5a98d0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+.btn--primary:hover {
+  background-color: #74b2ea;
+}
+.btn--primary:active {
+  background-color: #417fb7;
+}

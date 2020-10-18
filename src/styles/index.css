@@ -1,5 +1,12 @@
+/* Global */
 @import 'normalize.css';
-
 @import './fonts.css';
 @import './config.css';
 
+/* Blocks */
+@import url('./blocks/page.css');
+@import url('./blocks/btn.css');
+@import url('./blocks/logo.css');
+@import url('./blocks/menu.css');
+@import url('./blocks/header.css');
+@import url('./blocks/intro.css');

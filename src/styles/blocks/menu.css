@@ -1,0 +1,25 @@
+.menu__button {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+.menu__button span {
+  position: absolute;
+  left: 3px;
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #356ead;
+}
+.menu__button span:first-child {
+  top: 8px;
+}
+.menu__button span:nth-child(2) {
+  top: 15px;
+}
+.menu__button span:last-child {
+  bottom: 8px;
+}

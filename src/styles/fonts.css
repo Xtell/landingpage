@@ -1,25 +1,30 @@
 @font-face {
   font-family: 'Gilroy';
   font-weight: 300;
-  src: url('../fonts/gilroy-light.woff2') format('woff2')
+  src: url('../fonts/gilroy-light.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Gilroy';
   font-weight: 400;
-  src: url('../fonts/gilroy-normal.woff2') format('woff2')
+  src: url('../fonts/gilroy-regular.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Gilroy';
   font-weight: 500;
-  src: url('../fonts/gilroy-medium.woff2') format('woff2')
+  src: url('../fonts/gilroy-medium.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Gilroy';
   font-weight: 600;
-  src: url('../fonts/gilroy-semibold.woff2') format('woff2')
+  src: url('../fonts/gilroy-semibold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Gilroy';
   font-weight: 700;
-  src: url('../fonts/gilroy-bold.woff2') format('woff2')
+  src: url('../fonts/gilroy-bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Galien';
+  font-weight: 700;
+  src: url('../fonts/Galien-Bold.woff2') format('woff2');
 }
