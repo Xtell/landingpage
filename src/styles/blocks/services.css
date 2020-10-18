@@ -1,0 +1,43 @@
+
+.services__inner {
+  position: relative;
+  padding-top: 192px;
+  padding-bottom: 212px;
+}
+.services__title {
+  width: 358px;
+}
+.services__list {
+  display: flex;
+  flex-direction: column;
+  width: 860px;
+  margin: 0;
+  margin-top: -130px;
+  margin-left: auto;
+  padding: 0;
+  list-style: none;
+}
+
+.services__item:nth-child(odd) {
+  align-self: flex-end;
+  margin-top: -198px;
+}.services__item:nth-child(even) {
+  align-self: start;
+  margin-top: -226px;
+  margin-right: 100px;
+}
+.services__item:first-child {
+  margin-top: 0;
+}
+.services__card--technology::before {
+  top: -40px;
+  background-image: url("../../images/technology.png");
+}
+.services__card--business::before {
+  background-image: url("../../images/business.png");
+  background-position: 74px center;
+}
+.services__card--digital::before {
+  background-image: url("../../images/digital.png");
+  background-position: 100px center;
+}

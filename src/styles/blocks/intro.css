@@ -4,7 +4,7 @@
   padding-top: 94px;
   padding-bottom: 150px;
   background-image: url('../../images/intro-bg.png'),
-    linear-gradient(0deg, rgba(152, 195, 232, 0.2) 8.84%, rgba(152, 195, 232, 0) 31.12%);
+                    linear-gradient(0deg, rgba(152, 195, 232, 0.2) 8.84%, rgba(152, 195, 232, 0) 31.12%);
   background-repeat: no-repeat;
   background-size: 688px 625px, contain;
   background-position: calc(100% - 15px) -7px, 0 0;
