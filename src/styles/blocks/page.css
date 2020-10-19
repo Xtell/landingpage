@@ -11,11 +11,33 @@
   width: 940px;
   margin: 0 auto;
 }
+.page__section {
+  padding-top: 96px;
+  padding-bottom: 124px;
+  border-radius: 200px 0px 0px 0px;
+}
 
+.page__section-header {
+  display: flex;
+  align-items: flex-start;
+}
 .page__section-title {
   margin: 0;
   font-size: 36px;
   font-weight: 600;
   line-height: 46px;
   color: #316099;
+  letter-spacing: 0.05em;
+}
+.page__section-description {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+.page__section-header .page__section-title {
+  width: 230px;
+  flex-shrink: 0;
+  margin-right: 98px;
+}
+.page__section-title--white {
+  color: #ffffff;
 }

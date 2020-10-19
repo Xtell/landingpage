@@ -6,7 +6,6 @@
 }
 .services__title {
   width: 370px;
-  letter-spacing: 0.05em;
 }
 .services__list {
   display: flex;
