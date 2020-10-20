@@ -19,11 +19,8 @@
 .footer__wrapper {
   position: relative;
   min-width: 1280px;
-
   z-index: 10;
   
-}
-.footer__container {
 }
 .footer__top {
   position: relative;
@@ -44,7 +41,6 @@
   justify-content: space-between;
   align-items: center;
   width: 862px;
-
   padding-bottom: 96px;
   border-bottom: 1px solid #83a0c2;
 }
