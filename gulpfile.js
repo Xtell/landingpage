@@ -47,6 +47,7 @@ const styles = () => {
     .pipe(
       postcss([
         require('postcss-import'),
+        require('postcss-url')({ url: 'rebase' }),
         require('autoprefixer'),
         require('postcss-csso')
       ]),
@@ -80,8 +81,8 @@ exports.scripts = scripts;
 
 const images = () => {
   return gulp.src('./src/images/*.*')
-  .pipe(newer('dist/images'))
-  .pipe(gulp.dest('dist/images'))
+    .pipe(newer('dist/images'))
+    .pipe(gulp.dest('dist/images'))
 }
 exports.images = images;
 
