@@ -1,5 +1,23 @@
-/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo__link {
+  display: flex;
+  align-items: center;
+}
 .logo__img {
   width: 48px;
   height: 48px;
+
+}
+.logo__img:not(:last-child) {
+  margin-right: 15px;
+}
+.logo__text {
+  font-size: 28px;
+  line-height: 46px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }

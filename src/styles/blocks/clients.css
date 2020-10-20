@@ -1,6 +1,9 @@
 .clients {
   background-color: #5a98d0;
 }
+.clients__header {
+  margin-bottom: 110px;
+}
 .clients__list {
   display: flex;
   flex-wrap: wrap;
