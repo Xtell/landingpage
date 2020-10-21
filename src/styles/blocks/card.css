@@ -16,13 +16,7 @@
   background-position: center;
 }
 .card__title {
-  margin: 0;
   margin-bottom: 16px;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 600;
-  color: #1f3f68;
-  letter-spacing: 0.05em;
 }
 .card__description {
   margin: 0;

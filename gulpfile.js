@@ -14,7 +14,7 @@ const imagemin = require('gulp-imagemin');
 
 const html = () => {
   return gulp
-    .src('./src/index.html')
+    .src('./src/*.html')
     .pipe(
       htmlmin({
         collapseWhitespace: true,

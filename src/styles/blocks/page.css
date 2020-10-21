@@ -11,6 +11,15 @@
   width: 940px;
   margin: 0 auto;
 }
+.page__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: 'Galien', serif;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+}
 .page__section {
   padding-top: 96px;
   padding-bottom: 124px;
@@ -29,6 +38,9 @@
   color: #316099;
   letter-spacing: 0.05em;
 }
+.page__section-title--white {
+  color: #ffffff;
+}
 .page__section-description {
   margin: 0;
   color: rgba(255, 255, 255, 0.6);
@@ -38,6 +50,15 @@
   flex-shrink: 0;
   margin-right: 98px;
 }
-.page__section-title--white {
+
+.page__block-title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #1f3f68;
+  letter-spacing: 0.05em;
+}
+.page__block-title--white {
   color: #ffffff;
 }
