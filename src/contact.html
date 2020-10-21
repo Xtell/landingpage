@@ -28,69 +28,78 @@
   <main class="page__main">
     <section class="contact-us">
       <header class="contact-us__header">
-        <h1 class="contact-us__title">
-          Contact Us
-        </h1>
-        <p class="contact-us__subtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
-        </p>
+        <div class="contact-us__header-inner">
+          <h1 class="contact-us__title">
+            Contact Us
+          </h1>
+          <p class="contact-us__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua.
+          </p>
+        </div>
       </header>
       <div class="contact-us__content">
         <div class="page__container">
-          <div class="contact-us__col">
-            <div class="contact-us__info">
-              <div class="contact-us__info-block">
-                <h2 class="contact-us__info-title page__block-title">Address</h2>
-                <p class="contact-us__info-description">Id convallis placerat sit sed duis id amet volutpat quam a,
-                  pharetra.</p>
+          <div class="contact-us__columns">
+            <div class="contact-us__col">
+              <div class="contact-us__info">
+                <div class="contact-us__info-block">
+                  <h2 class="contact-us__info-title page__block-title">Address</h2>
+                  <p>Id convallis placerat sit sed duis id amet volutpat quam a,
+                    pharetra.</p>
+                </div>
+                <div class="contact-us__info-block">
+                  <h2 class="contact-us__info-title page__block-title">phone</h2>
+                  <ul class="contact-us__info-list--phone">
+                    <li class="contact-us__info-item"><a href="tel:+6281273134321">+62-812-7313-4321</a></li>
+                    <li class="contact-us__info-item"><a href="tel:+6281273134321">+62-812-7313-4321</a></li>
+                  </ul>
+                </div>
+                <div class="contact-us__info-block">
+                  <h2 class="contact-us__info-title page__block-title">online service</h2>
+                  <ul class="contact-us__info-list contact-us__info-list--online">
+                    <li class="contact-us__info-item contact-us__info-item--site"><a
+                        href="www.afrianska.com">www.afrianska.com</a></li>
+                    <li class="contact-us__info-item contact-us__info-item--email"><a
+                        href="tel:+6281273134321">hello.afrian@gmail.com</a></li>
+                  </ul>
+                </div>
               </div>
-              <div class="contact-us__info-block">
-                <h2 class="contact-us__info-title page__block-title">phone</h2>
-                <ul class="contact-us__info-list contact-us__info-list--phone">
-                  <li class="contact-us__info-item"><a href="tel:+6281273134321">+62-812-7313-4321</a></li>
-                  <li class="contact-us__info-item"><a href="tel:+6281273134321">+62-812-7313-4321</a></li>
-                </ul>
-              </div>
-              <div class="contact-us__info-block">
-                <h2 class="contact-us__info-title page__block-title">online service</h2>
-                <ul class="contact-us__info-list contact-us__info-list--online">
-                  <li class="contact-us__info-item--site"><a href="www.afrianska.com">www.afrianska.com</a></li>
-                  <li class="contact-us__info-item--email"><a href="tel:+6281273134321">hello.afrian@gmail.com</a></li>
-                </ul>
+            </div>
+            <div class="contact-us__col">
+              <div class="contact-us__form-wrapper">
+                <form action="" class="contact-us__form form">
+                  <fieldset class="form__fieldset">
+                    <legend class="form__legend">
+                      <h2 class="contact-us__form-title page__block-title">send us message</h2>
+                    </legend>
+                    <label class="form__group">
+                      <span class="form__label">Full name</span>
+                      <input type="text" class="form__input" placeholder="Your Name">
+                    </label>
+                    <label class="form__group">
+                      <span class="form__label">Email</span>
+                      <input type="email" class="form__input" placeholder="Your Email">
+                    </label>
+                    <label class="form__group">
+                      <span class="form__label">Message</span>
+                      <textarea type="email" class="form__input form__input--textarea"
+                        placeholder="Your Message"></textarea>
+                    </label>
+                  </fieldset>
+                  <button class="btn btn--primary btn--full-width form__submit">submit</button>
+                </form>
               </div>
             </div>
           </div>
-          <div class="contact-us__col">
-            <div class="contact-us__form-wrapper">
-              <form action="" class="contact-us__form form">
-                <fieldset class="form__fieldset">
-                  <legend class="form__legend">
-                    <h2 class="page__block-title">send us message</h2>
-                  </legend>
-                  <label class="form__group">
-                    <span class="form__label">Full name</span>
-                    <input type="text" class="form__input" placeholder="Your Name">
-                  </label>
-                  <label class="form__group">
-                    <span class="form__label">Email</span>
-                    <input type="email" class="form__input" placeholder="Your Email">
-                  </label>
-                  <label class="form__group">
-                    <span class="form__label">Message</span>
-                    <textarea type="email" class="form__input" placeholder="Your Message">
-                  </label>
-                  <button class="btn btn--primary form__submit">submit</button>
-                </fieldset>
-              </form>
-            </div>
-          </div>
+
           <img src="images/map.jpg" alt="company address" class="contact-us__map">
         </div>
       </div>
     </section>
   </main>
-  <footer class="footer footer--inner">
+  <footer class="footer footer--inner-page">
     <div class="footer__wrapper">
       <div class="footer__top">
         <div class="page__container footer__container">
@@ -121,7 +130,8 @@
 
               </div>
               <ul class="footer__list footer__list--contacts">
-                <li class="footer__list-item footer__list-item--address"><a class="footer__list-link" href="https://www.google.com/maps">Lorem
+                <li class="footer__list-item footer__list-item--address"><a class="footer__list-link"
+                    href="https://www.google.com/maps">Lorem
                     ipsum dolor sit amet,
                     consectetur adipisicing elit.</a></li>
                 <li class="footer__list-item footer__list-item--phone"><a class="footer__list-link"
@@ -132,7 +142,7 @@
               </ul>
             </div>
             <div class="footer__column">
-              <h3 class="footer__column-title page__block-title--white">About US</h3>
+              <h3 class="footer__column-title page__block-title page__block-title--white">About US</h3>
               <ul class="footer__list">
                 <li class="footer__list-item"><a href="" class="footer__list-link">About</a></li>
                 <li class="footer__list-item"><a href="" class="footer__list-link">What We Do</a></li>
@@ -141,7 +151,7 @@
               </ul>
             </div>
             <div class="footer__column">
-              <h3 class="footer__column-title page__block-title--white">Follow US</h3>
+              <h3 class="footer__column-title page__block-title page__block-title--white">Follow US</h3>
               <ul class="footer__list">
                 <li class="footer__list-item"><a href="" class="footer__list-link">Instagram</a></li>
                 <li class="footer__list-item"><a href="" class="footer__list-link">Facebook</a></li>
@@ -156,4 +166,5 @@
     </div>
   </footer>
 </body>
+
 </html>

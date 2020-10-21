@@ -8,9 +8,11 @@
 @import './blocks/btn.css';
 @import './blocks/logo.css';
 @import './blocks/menu.css';
+@import './blocks/forms.css';
 @import './blocks/card.css';
 @import './blocks/header.css';
 @import './blocks/intro.css';
 @import './blocks/services.css';
 @import './blocks/clients.css';
+@import './blocks/contact-us.css';
 @import './blocks/footer.css';

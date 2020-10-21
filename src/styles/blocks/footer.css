@@ -4,6 +4,9 @@
   padding-bottom: 64px;
   padding-top: 90px;
 }
+.footer--inner-page {
+  background-color: #ffffff;
+}
 .footer::before {
   content: '';
   position: absolute;
