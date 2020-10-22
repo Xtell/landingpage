@@ -1,8 +1,8 @@
 .footer {
   position: relative;
   background-color: #5a98d0;
+  padding-top: 96px;
   padding-bottom: 64px;
-  padding-top: 90px;
 }
 .footer--inner-page {
   background-color: #ffffff;
@@ -62,7 +62,7 @@
   align-items: flex-start;
   width: 860px;
   margin-bottom: 64px;
-  padding-top: 96px;
+  padding-top: 98px;
 }
 .footer__column {
   margin-right: 78px;
