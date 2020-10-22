@@ -1,9 +1,18 @@
 .clients {
-  padding-top: 80px;
+  padding-top: 94px;
   background-color: #5a98d0;
 }
 .clients__header {
+  display: flex;
+  align-items: flex-start;
   margin-bottom: 110px;
+}
+.clients__title {
+  width: 230px;
+  margin-right: 90px;
+}
+.clients__description {
+  width: 540px;
 }
 .clients__list {
   display: flex;
